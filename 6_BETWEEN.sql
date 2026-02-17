@@ -1,0 +1,8 @@
+USE SAKILA;
+
+SELECT
+	COUNT(*) QTD_REG
+FROM
+	payment
+WHERE 
+	AMOUNT between 1.99 AND 3.99;

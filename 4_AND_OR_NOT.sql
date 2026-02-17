@@ -1,0 +1,48 @@
+-- ANOTAÇÕES
+
+/*
+AND = E
+OR = OU
+NOT = NÃO
+*/
+
+-- USING AND 
+
+USE SAKILA;
+
+SELECT
+	*
+FROM
+	CUSTOMER
+WHERE 
+	STORE_ID = 1 
+AND 
+	ACTIVE = 0;
+  
+-- USING OR  
+  
+USE SAKILA;
+
+SELECT
+	*
+FROM
+	CUSTOMER
+WHERE 
+	STORE_ID = 1 
+OR 
+	ACTIVE = 0;
+    
+-- USING NOT
+
+USE SAKILA;
+
+SELECT
+	*
+FROM
+	CUSTOMER
+WHERE 
+	STORE_ID = 1 
+AND NOT
+	ACTIVE = 0;
+
+    

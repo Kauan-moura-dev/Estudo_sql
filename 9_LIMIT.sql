@@ -1,0 +1,5 @@
+USE SAKILA;
+
+SELECT *
+FROM actor
+LIMIT 4,10; 

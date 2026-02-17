@@ -1,0 +1,22 @@
+USE SAKILA;
+
+SELECT 
+	PAYMENT_ID
+    ,AMOUNT
+FROM 
+	payment
+WHERE 
+	AMOUNT >=2.99
+ORDER BY 2 DESC;
+
+-- COMPARISON SIGNS
+/*
+=
+>
+>=
+<
+<=
+<> OR !=
+*/
+
+	
